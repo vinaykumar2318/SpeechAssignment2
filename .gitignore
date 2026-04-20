@@ -62,6 +62,7 @@ pretrained_models
 
 data/commonvoice_en
 data/commonvoice_hi
+data/original_segment.wav
 
 # ------------------------------
 
