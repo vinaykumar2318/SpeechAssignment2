@@ -71,7 +71,7 @@ data/original_segment.wav
 # ------------------------------
 
 *.pt
-*.pth
+# *.pth
 *.ckpt
 *.bin
 

@@ -11,9 +11,6 @@ print("="*50)
 print("EVALUATION RESULTS")
 print("="*50)
 
-# --------------------------------------------------
-# 1. WER
-# --------------------------------------------------
 print("\n[1] WER Evaluation")
 
 with open("ground_truth.txt", "r", encoding="utf-8") as f:
@@ -31,9 +28,6 @@ else:
     print("WER: FAIL")
 
 
-# --------------------------------------------------
-# 2. MCD
-# --------------------------------------------------
 print("\n[2] MCD Evaluation")
 
 ref_path = "data/student_voice_ref.wav"
@@ -80,7 +74,7 @@ for start in range(0, max(1, len(syn_audio) - samples), step):
         total += np.linalg.norm(ref_mfcc[i] - syn_mfcc[j])
 
     mcd = (10 / np.log(10)) * np.sqrt(2) * total / len(path)
-
+    
     if mcd < best_mcd:
         best_mcd = mcd
 
@@ -90,11 +84,13 @@ if best_mcd < 8:
     print("MCD: PASS")
 else:
     print("MCD: FAIL")
+    print("\nReason for high MCD: I am using GTTS (Google TTS) instead of tts as i was encountering a dependency problem i also tried to do it on collab but it also didnt worked well.")
+    print("- Reference and synthesized speech are in different languages (Hinglish vs Bhojpuri)")
+    print("- MFCC comparison assumes phoneme-level similarity, which is violated here")
+    print("- DTW aligns sequences temporally but cannot resolve linguistic mismatch")
+    print("- Therefore, MCD is inflated and does not reflect speaker similarity accurately")
 
 
-# --------------------------------------------------
-# 3. LID Switching Accuracy
-# --------------------------------------------------
 print("\n[3] LID Switching Accuracy")
 
 gt_sw = np.loadtxt("ground_truth_switches.txt")
@@ -118,9 +114,6 @@ else:
     print("LID: FAIL")
 
 
-# --------------------------------------------------
-# 4. Spoof Detection (EER)
-# --------------------------------------------------
 print("\n[4] Spoof Detection")
 
 real_path = "data/student_voice_ref.wav"
@@ -169,13 +162,18 @@ print(f"Spoof EER: {eer*100:.2f}%")
 
 if eer < 0.10:
     print("Spoof Detection: PASS")
+    print("\nNote:")
+    print("- Very low EER (close to 0%) indicates strong separability")
+    print("- This is likely due to clear acoustic differences between real and synthesized audio")
+    print("- Dataset size is small, so results may not generalize")
 else:
     print("Spoof Detection: FAIL")
+    print("\nReason for high EER:")
+    print("- Features (MFCC) may not capture spoof artifacts effectively")
+    print("- Model may be underfitting or overfitting")
+    print("- Insufficient training data for robust classification")
 
 
-# --------------------------------------------------
-# 5. Adversarial Robustness
-# --------------------------------------------------
 print("\n[5] Adversarial Robustness")
 
 audio, _ = librosa.load("results/output_LRL_cloned.wav", sr=22050)
