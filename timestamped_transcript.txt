@@ -1,0 +1,86 @@
+00:00:21,000
+ वीडियो की जो हम इसमें बात करने वाले हैं वो है syllabus of operating system अब आपको पहले लग रहा होगा कि syllabus of operating system मतलब already ये बहुत जगा पर available है आप अगर download करना चाहो operating system of syllabus particular university का gate के exam के लिए या UGC net के exam के लिए आपको easily available हो जाएगा लेकिन मेरा इस वीडियो को बनाने का main motive क्या है पहला
+
+00:00:47,000
+ आपको clear cut information दे रहा हूँ कि gate में या UGC net के लिए अगर आप operating system prepare कर रहे हो तो कौन से ऐसे topic है जो mandatory है star mark है मतलब आपको करके ही जाने है और कौन से ऐसे topic है जिनको आप थोड़ा बहुत उपर से देख के जा सकते हो
+
+00:01:04,000
+ तो इससे actually benefit क्या है एक तो वो लोग जो बिल्कुल late time पे study करते हैं मतलब बिल्कुल जब exam से थोड़ा ता टाइम पहले study start करते हैं तो उनके लिए जो है बहुत ज़्यादा benefit है even जो proper study कर रहे हैं उनके लिए भी ये video बहुत benefit है
+
+00:01:19,000
+ because इस वीडियो में मैं सारे topic cover करने जा रहा हूँ जहाँ पे main topic और उनके अंदर sub topics क्या है और ये वीडियो में जितने भी topic हम बना रहे हैं ये किसके उपर based है questions जितने भी questions last years में आए हुए चाहे gate के exam में चाहे UGC net के exam में
+
+00:01:37,000
+ क्योंकि कहीं ना कहीं उनका pattern जो है, questions का वो same है, कई बार UGC net के exam में gate के questions आ जाते हैं, gate के exam में जो है कई बार questions जो है repeat हो जाते हैं, but with a different language, तो ये जो है,
+
+00:01:52,000
+ इसलिए यह वीडियो का यहाँ पे बड़ा important है बड़े importance है दूसरा point यहाँ पे क्या है smart work जैसा कि हम लोग जानते हैं कि hard work बहुत important है लेकिन hard work के साथ साथ smart work जो है वो भी बहुत important है अगर आपको यादो कि इस time पे जो हमारा अभी जो latest आई है Forbes की report उसके according जो word का number one जो अमी
+
+00:02:16,000
+ तो वो जो है बंदा Amazon का जो head है उस बंदे ने कितना smart work किया देखो ना तो उसकी कोई industries है कि जो industry में वो चीजे बना रहे हैं shoes बना रहे हैं या apparel बना रहे हैं बहुत सारी चीजे जो भी वो online website पे या application में जो वो चीजे बेच रहे हैं
+
+00:02:33,000
+ लेकिन उसके बावजूद भी है उसकी जो total wealth है वो पूरे सारे billionaires जिसमें हमारे India के Mukesh Ambani जो है वो आते है और भी बहुत सारे billionaires है तो उनको भी जो है उसने पीछे छोड़ दिया तो वो जो है that is a smart work hard work तो है ही है उसके साथ क्या है smart work without any industry without any big investment वो जो है सिर्फ समान को इदर से
+
+00:03:03,000
+ implement कर रहे हैं तो पहला जो topic है that is basic introduction तो basic introduction में यहाँ पर क्या आता है normal operating system की definition operating system की definition के साथ साथ types of operating system types of operating system में batch operating system multi program multitasking operating system real time वो आपको पता होना चाहिए उसके बाद यहाँ पर आता है मेरे पास process
+
+00:03:29,000
+ Diagram, मतलब जब एक process हम execute करते हैं, जब एक process को CPU execute करते हैं, तो कौन-कौन सी stages में से वो process pass होते हैं, उसके एलावा यहाँ पर क्या आता है, मेरे पास types of operating system और process के diagram के एलावा यहाँ पर basic system call,
+
+00:03:47,000
+ definition of system calls, उसमें आता है आपकी fork system call, और उसके लाभा, मतलब basic जो है, kernel और fork, इन सब system calls के बारे में आपको पता होना चाहिए, लेकिन यहाँ पे जो main important point है, वो है process का diagram, मतलब process की जो stages है, that is very important point, और उसके बाद मेरे पास आता है process scheduling, जिसको हम CPU scheduling भी बोल सकते हैं,
+
+00:04:14,000
+ तो शेडूलिंग में जो है वह बहुत सारे वेरियस एलगोरिदम्स आते हैं और यह पूरा का पूरा टॉपिक ही इंपोर्टेंट है इसमें मैं यह नहीं कह सकता कि यह पर्टिकुलर चीज इंपोर्टेंट है यह पूरा का पूरा टॉपिक ही इंपोर्टेंट है इसमें अलग
+
+00:04:39,000
+ वो algorithms आते हैं priority है तो ये वाला portion जो है बहुत important है because every year there will be a question in gate and UGC net from this topic तो ये topic तो आपके लिए कह सकते हो mandatory ही है मतलब ये तो topic करके ही जाना है और बहुत ही easy है अगर आपने एक-एक numerical दो-दो numerical इसके कर लिए तो definitely आप इसको easily solve कर सकते हो
+
+00:05:03,000
+ process synchronization, third आता है process synchronization, इसमें जो है concept आता है semaphore का
+
+00:05:12,000
+ concept of semaphore, binary semaphore specially, binary semaphore का concept इसमें आता है, वो ही आपको करके जाना है, because that is the most important part, इसके लाभा Peterson's solution है, basic आपको पता होना चाहिए, कि कैसे जो है, synchronize करते हैं processes को, लेकिन यहाँ पे semaphore के concept में इसे question आता है, यह,
+
+00:05:33,000
+ थोड़ा सा complex है topic लेकिन अगर आप इसको अच्छे से देखें तो आपको definitely इसमें आपको clear हो जाएगा कि कैसे सेमा 4 काम करता है action में तो ये वाला जो है सेमा 4 वाला topic मैं इसमें इसको बोलूगा कि mandatory है जिसको आपको करके ही जाना है
+
+00:05:50,000
+ next आता है deadlock and threats deadlock and threats में जो deadlock वाला portion है बहुत easy portion है बहुत easy basic definition deadlock prevention deadlock avoidance और specially इसमें आता है bankers algorithm bankers algorithm आपको पता होना चाहिए कैसे काम करता है बहुत easy है आप इसके लिए मेरी videos को चेक कर सकते हो वहाँ पे मैंने इसको बहुत ही अच्छे example से even gate के question से ही
+
+00:06:13,000
+ समझाया हुआ है तो bankers का algorithm आपको यहाँ पर करके जाना है इसके लावा basic questions भी मैंने अपनी videos में यहाँ पर mention किये हुए है deadlock के ऊपर यह वाला topic जो है वो totally completed है मेरी video में process synchronization भी process scheduling वाला भी और basic वाला यह already covered sorry then memory management memory management में हमारे पास आता है specially
+
+00:06:42,000
+ paging का concept, segmentation का concept,
+
+00:06:48,000
+ और इसके एलावा fragmentation, internal and external fragmentation के ऊपर काफी बार question आता है, तो ये portion आपको करके ही जाना है, although इसमें multi-level paging का concept भी आता है, और segmentation with paging, वो थोड़े से complex topic है, अगर आपके बास time है, आप proper इसकी त्यारी कर रहे हो, तो definitely वो वाले portion भी करके जाना, multi-level paging, segmented paging वगेरा, लेकिन अ 
+
+00:07:17,000
+ segmentation कैसे काम करते हैं fragmentation के types और उसके अलावा यहाँ पे आता है virtual memory का concept
+
+00:07:25,000
+ वर्चल memory के concept को जिरूर करके जाना, इसमें आपके questions भी आते हैं, numerical question आते हैं, numerical question में उसमें आपको दिया होगा, कि time दिया होता है, effective memory, excess time निकालना होता है, उससे related numericals आते हैं, basic of threshing आपको पता होना चाहिए, और इसके इलावा, जो बहुत important point है, वो है page replacement,
+
+00:07:48,000
+ इसको मैं definitely यहाँ पे highlight करना चाहूँगा because यह important क्यों है क्योंकि एक तो यह बहुत ही easy topic है
+
+00:08:01,000
+ बिल्कुल आप एक एक दो दो question इसमें कर लिये तो आप इसको कभी भी गलत नहीं करोगे तो इसलिए ये वाला portion और हर साल इसमें से question आ रहा है easy भी और question भी आ रहा है तो यार obviously secure करना है क्योंकि gate का exam बोलू तो वहाँ पे number of question कितने attempt कर रहा हूँ that is not important number of correct question कितने attempt कर रहा हू 
+
+00:08:30,000
+ यहाँ पे तो डेफिनेटली आपको पहले correctness की तरफ जाना है ताकि अगर मेरा in case गलत हो गया तो negative marking जो है gate के exam में वो बहुत परिशान करती है page replacement algos के बाद आता है आपका disk scheduling disk scheduling में भी हमारे पास यह numerical portion है यह भी numerical कह सकते है इसको kind of और इसमें आता है disk scheduling इसमें भी हमारे पास  
+
+00:09:03,000
+ एक basic FCFS
+
+00:09:07,000
+ और एक basic जो है मतलब जो basic-basic जो algorithms है इसके ऊपर भी मेरी videos जो है मैंने already बना चुका हूँ तो इन videos को आप cover कर सकते हो एक-एक question जो है मैंने सारे में explain किया हुआ है आप उसको जो है अच्छे से वहाँ पे practice कर सकते हो disk scheduling के बाद आता है unix commands यह वाला जो portion है यह UGC net में ज़्या
+
+00:09:36,000
+ जैसे LS कमांड है, MKDIR, CD, काफी कमांड हैं, मतलब मैं यहाँ पे, बट basic कमांड, जितनी भी हैं, CD कमांड है, CHMOD कमांड है, अभी recently जुलाई वाले जो है, exam में जुलाई का, जो अभी 2018 का exam हुआ है, UGC net का, उसमें इसके ऊपर question आया हुआ है, और इसके लावा आपको open system call के ब
+
+00:10:02,000
+ जो है आपके पास मतलब फाइल से related जो system calls है उनके बारे में आपको पता होना चाहिए उनके parameters क्या है वो आपको जो है पता होना चाहिए तो ये जो है basic Linux commands के बारे में आपको question आ सकता है although gate में ये question नहीं आया हुआ ज़्यादा लेकिन UGC net के लिए ये portion जो है बहुत important है

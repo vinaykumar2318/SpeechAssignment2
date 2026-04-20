@@ -1,0 +1,20 @@
+operating system
+process scheduling
+cpu scheduling
+deadlock
+mutex
+semaphore
+kernel
+thread
+memory management
+paging
+segmentation
+virtual memory
+page replacement
+disk scheduling
+bankers algorithm
+round robin
+priority scheduling
+system call
+fork system call
+binary semaphore

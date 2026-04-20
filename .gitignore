@@ -1,0 +1,117 @@
+# ------------------------------
+
+# Python
+
+# ------------------------------
+
+**pycache**/
+# *.py[cod]
+# *.pyo
+# *.pyd
+# *.so
+
+# Virtual environments
+
+venv/
+env/
+.venv/
+
+# ------------------------------
+
+# Jupyter / Logs
+
+# ------------------------------
+
+.ipynb_checkpoints/
+*.log
+
+# ------------------------------
+
+# OS Files
+
+# ------------------------------
+
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+
+# Audio Files (generated outputs)
+
+# ------------------------------
+
+# results/*.wav
+# results/*.mp3
+# results/*.npy
+# results/*.png
+
+# Keep folder but ignore contents
+
+!results/.gitkeep
+
+# ------------------------------
+pretrained_models
+
+# Data Files (large / private)
+
+# ------------------------------
+
+# data/*.wav
+# data/*.mp3
+# data/*.npy
+
+data/commonvoice_en
+data/commonvoice_hi
+
+# ------------------------------
+
+# Model / Cache Files
+
+# ------------------------------
+
+*.pt
+*.pth
+*.ckpt
+*.bin
+
+# HuggingFace / Torch cache
+
+.cache/
+huggingface/
+torch_cache/
+
+# ------------------------------
+
+# Temporary Files
+
+# ------------------------------
+
+*.tmp
+*.temp
+
+# ------------------------------
+
+# Build / Dist
+
+# ------------------------------
+
+build/
+dist/
+*.egg-info/
+
+# ------------------------------
+
+# Environment variables
+
+# ------------------------------
+
+.env
+
+# ------------------------------
+
+# IDE files
+
+# ------------------------------
+
+.vscode/
+.idea/
